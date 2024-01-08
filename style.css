@@ -1,0 +1,192 @@
+.socialicons {
+  height: 80px;
+  width: 80px;
+}
+
+.icon-align {
+  align-items: flex-end;
+  bottom: 0;
+  right: 25px;
+}
+
+.footer {
+  background-image: url(pics/footer.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.header {
+  background-image: url(pics/header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.ingridiens {
+  font-size: 20px;
+  text-align: center;
+  color: #402620;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.ingridiens-list {
+  font-size: 25px;
+  color: #402620;
+  margin-bottom: 100px;
+}
+
+.instructions {
+  padding-left: 20px;
+}
+
+.cake-container {
+  border: 2px solid #ab9873;
+
+  height: 250px;
+  margin: 0px 20px;
+  /* 
+  margin: 10px 30px 20px 0px; */
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+  border: 2px solid white;
+  font-weight: bold;
+  position: relative;
+  margin-left: 30px;
+}
+
+.content-icon {
+  color: #ab9873;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header-text {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.page-headers {
+  font-family: "Merienda", cursive;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.btn {
+  color: #522829;
+  background-color: #b17481;
+  border: 1px solid #b17481;
+  margin-right: 15px;
+  padding: 10px 35px;
+  border-radius: 150px;
+  font-weight: bold;
+  align-items: flex-end;
+  bottom: 180px;
+  right: 130px;
+}
+.btn:hover {
+  color: white;
+  background-color: hsl(342, 34%, 21%);
+  border: 1px solid hsl(342, 34%, 21%);
+  margin-right: 15px;
+  padding: 10px 35px;
+  border-radius: 150px;
+  font-weight: bold;
+}
+
+.numbers {
+  font-family: "Merienda", cursive;
+  padding-top: 15px;
+}
+
+.instructions-text {
+  font-size: 17px;
+  font-weight: 400;
+  color: #402620;
+}
+
+.feature-stripes {
+  display: flex;
+}
+
+.feature-container-text {
+  position: relative;
+  top: 50%;
+  text-align: left;
+  display: flex;
+}
+
+.text-below {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #402620;
+  padding-bottom: 50px;
+}
+.various-cakes-images {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-align: center;
+}
+.single-shaped-image {
+  box-sizing: content-box;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.textpanel {
+  position: relative;
+}
+.textpanel img {
+  box-sizing: content-box;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.textpanel textarea {
+  top: 63px;
+  left: 1115px;
+  height: 600;
+  width: 605px;
+  background-color: #b17481a1;
+}
+textarea::-webkit-input-placeholder {
+  color: #402620;
+  opacity: 70%;
+  font-family: "Merienda", cursive;
+}
+
+.textarea-image {
+  box-sizing: content-box;
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  position: relative;
+  padding-right: 150px;
+}
